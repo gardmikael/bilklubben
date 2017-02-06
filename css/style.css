@@ -1,0 +1,118 @@
+html, body {
+	height: 100%;
+}
+.page-wrapper{
+	min-height: 0!important;
+}
+
+.carousel-container{
+	
+	margin: auto;
+	width: 800px;
+	height: 500px;
+	min-width: 800px;
+	max-width: 800px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.subpanel{
+	
+	width: 750px;
+	margin: auto;
+}
+.buttons-container{
+	text-align: center;
+	margin: auto;
+}
+
+.btn{
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.blue-btn {
+	
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	
+}
+.blue-btn:hover{
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+.green-btn{
+	background: #2cb841;
+	background-image: -webkit-linear-gradient(top, #2cb841, #05803a);
+	background-image: -moz-linear-gradient(top, #2cb841, #05803a);
+	background-image: -ms-linear-gradient(top, #2cb841, #05803a);
+	background-image: -o-linear-gradient(top, #2cb841, #05803a);
+	background-image: linear-gradient(to bottom, #2cb841, #05803a);
+}
+
+.green-btn:hover{
+	background: #4cc922;
+	background-image: -webkit-linear-gradient(top, #4cc922, #18941c);
+	background-image: -moz-linear-gradient(top, #4cc922, #18941c);
+	background-image: -ms-linear-gradient(top, #4cc922, #18941c);
+	background-image: -o-linear-gradient(top, #4cc922, #18941c);
+	background-image: linear-gradient(to bottom, #4cc922, #18941c);
+	text-decoration: none;
+}
+
+.disabled-btn{
+	background-image: -webkit-linear-gradient(top, #e6e6e6, #a6a6a6);
+  	background-image: -moz-linear-gradient(top, #e6e6e6, #a6a6a6);
+  	background-image: -ms-linear-gradient(top, #e6e6e6, #a6a6a6);
+  	background-image: -o-linear-gradient(top, #e6e6e6, #a6a6a6);
+  	background-image: linear-gradient(to bottom, #e6e6e6, #a6a6a6);
+}
+
+.img{
+	height: 350px;
+	max-height: 350px;
+	margin: auto;
+}
+
+.text-container{
+	padding: 0 50px;
+}
+.header {
+	text-align: center;
+}
+
+.datelabel:after{
+	content: url(../img/cal.png);
+    padding-left: 5px;
+}
+
+.news-section{
+	font-family: 'Michroma';
+}
+.news-section h1{
+	font-size: 20px;
+}
+.news-section h2{
+	font-size: 10px;
+	color: #abc;
+}
+.news-section p{
+	font-size: 10px;
+	
+}
